@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Flask instance folder
+instance/
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Migrations
+migrations/
+
+# PyCharm / VSCode settings
+.idea/
+.vscode/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Python environment files
+*.env
