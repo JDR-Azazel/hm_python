@@ -26,7 +26,7 @@ class Question(db.Model):
     def to_dict(self):
         return {
             "id": self.id,
-            "text": self.text,   # ✅ здесь ключ должен быть text
+            "text": self.text,
             "category": self.category.name if self.category else None
         }
 
